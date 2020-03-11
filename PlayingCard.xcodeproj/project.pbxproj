@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1639A5F22417D27300E8B040 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639A5F12417D27300E8B040 /* CardBehavior.swift */; };
 		163D5A0D24167EBD00871E40 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D5A0C24167EBD00871E40 /* PlayingCardView.swift */; };
 		16B7E99324164A1000B10F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7E99224164A1000B10F28 /* AppDelegate.swift */; };
 		16B7E99524164A1100B10F28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7E99424164A1100B10F28 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1639A5F12417D27300E8B040 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
 		163D5A0C24167EBD00871E40 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		16B7E98F24164A1000B10F28 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B7E99224164A1000B10F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				16B7E99D24164A1100B10F28 /* LaunchScreen.storyboard */,
 				16B7E9A024164A1100B10F28 /* Info.plist */,
 				163D5A0C24167EBD00871E40 /* PlayingCardView.swift */,
+				1639A5F12417D27300E8B040 /* CardBehavior.swift */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				16B7E9A924164A9F00B10F28 /* PlayingCardDeck.swift in Sources */,
 				16B7E9A724164A2000B10F28 /* PlayingCard.swift in Sources */,
 				16B7E99524164A1100B10F28 /* SceneDelegate.swift in Sources */,
+				1639A5F22417D27300E8B040 /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
