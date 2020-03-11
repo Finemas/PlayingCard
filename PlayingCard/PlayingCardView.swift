@@ -87,7 +87,7 @@ class PlayingCardView: UIView {
         
         func createPipString(thatFits pipRect: CGRect) -> NSAttributedString {
             if rank == 1 {
-                return centeredAttributedString(suit, fontSize: 150)
+                return centeredAttributedString(suit, fontSize: pipRect.size.width * SizeRatio.aceSizeToBoundsWidth)
             }
             
             let maxVerticalPipCount = CGFloat(pipsPerRowRank.reduce(0) { max($1.count, $0) })
@@ -156,6 +156,7 @@ extension PlayingCardView {
         static let cornerRadiusToBoundsHeight: CGFloat = 0.06
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
         static let faceCardImageSizeToBoundsSize: CGFloat = 0.65
+        static let aceSizeToBoundsWidth: CGFloat = 0.9
     }
     
     private var cornerRadius: CGFloat {
